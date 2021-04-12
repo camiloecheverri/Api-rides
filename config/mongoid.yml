@@ -14,3 +14,11 @@ test:
         - localhost:27017
       options:
         server_selection_timeout: 1
+default:
+  clients:
+      default:
+        database: api_rider
+        hosts:
+          - localhost:27017
+        options:
+          server_selection_timeout: 1
