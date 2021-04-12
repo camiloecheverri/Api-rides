@@ -1,6 +1,5 @@
 require 'sinatra'
 # services
-require_relative "./base_controller"
 require_relative "../services/rides/create_new_ride"
 require_relative "../services/rides/finish_ride"
 require_relative "../contracts/rides/new_ride_contract"
