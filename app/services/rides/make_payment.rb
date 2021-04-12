@@ -13,7 +13,7 @@ require_relative './update_payment_status'
 #
 class MakePayment
   WOMPI_TEST_URL = "https://sandbox.wompi.co/v1"
-  BASE_REFERENCE = "sJT5987dDjkd9985np"
+  BASE_REFERENCE = "sJT5987dDjkd9988np"
   PUBLIC_WOMPI_KEY = "prv_test_v5WExE5NCi6x0RLWII2lXXoWsJ38OzfB"
   def call(current_ride)
     body = {

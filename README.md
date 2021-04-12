@@ -50,4 +50,5 @@ $ rspec . test/integration_spec.rb
 
 - Upgrade rake seeds
 - Add namespacing to classes name
+- Upgrade payments reference id logic
 - Add a .env to manage some variables, like public and private wompi test keys (or production if it's the case)
