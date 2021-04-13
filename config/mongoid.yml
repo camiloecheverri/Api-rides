@@ -4,19 +4,9 @@ development:
       uri: <%= ENV['MONGODB_URL'] %>
       options:
         server_selection_timeout: 1
-production:
-  clients:
-    default:
-      database: api_rider_production
-      hosts:
-        - localhost:27017
-      options:
-        server_selection_timeout: 1
 default:
   clients:
     default:
-      database: api_rider
-      hosts:
-        - localhost:27017
+      uri: <%= ENV['MONGODB_URL'] %>
       options:
         server_selection_timeout: 1
