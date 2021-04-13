@@ -23,7 +23,7 @@ class MakePayment
       payment_method: {
         installments: 1
       },
-      reference: "#{BASE_REFERENCE}#{Payment.all.count}",
+      reference: "#{BASE_REFERENCE}#{rand(10000)}",
       payment_source_id: current_ride.rider.payment_source.token
     }
     headers = {'Content-Type' => 'application/json',
