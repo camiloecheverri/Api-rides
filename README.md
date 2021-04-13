@@ -52,3 +52,5 @@ $ rspec . test/integration_spec.rb
 - Add namespacing to classes name
 - Upgrade payments reference id logic
 - Add a .env to manage some variables, like public and private wompi test keys (or production if it's the case)
+### HEROKU link
+https://api-rider-ce.herokuapp.com/ (doesn't work)
